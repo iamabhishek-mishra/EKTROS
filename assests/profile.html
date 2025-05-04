@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Sensilog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="nav-container">
+                <div class="logo-area">
+                    <img src="assests/logo.png" alt="Sensilog Logo" class="logo-img">
+                    <span class="logo-text">Sensilog</span>
+                </div>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile-section" style="padding-top: 120px; min-height: 100vh;">
+        <div class="container">
+            <div class="profile-container" style="display: flex; gap: 40px; margin-bottom: 60px;">
+                <!-- Profile Card -->
+                <div class="profile-card" style="flex: 1; background: rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 40px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
+                    <div class="profile-header" style="text-align: center; margin-bottom: 30px;">
+                        <div class="profile-avatar" style="width: 150px; height: 150px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 3px solid var(--primary-color);">
+                            <img src="assests/profile-placeholder.jpg" alt="Profile Picture" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <h2 class="neon-cyan" style="font-size: 2rem; margin-bottom: 10px;">John Doe</h2>
+                        <p style="color: #a259ff; font-size: 1.1rem;">Senior Software Engineer</p>
+                    </div>
+                    <div class="profile-stats" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px;">
+                        <div class="stat-item" style="text-align: center;">
+                            <h3 class="neon-cyan">150</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item" style="text-align: center;">
+                            <h3 class="neon-purple">5+</h3>
+                            <p>Years Exp</p>
+                        </div>
+                        <div class="stat-item" style="text-align: center;">
+                            <h3 class="neon-cyan">98%</h3>
+                            <p>Success</p>
+                        </div>
+                    </div>
+                    <div class="profile-socials" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 30px;">
+                        <a href="#" style="color: #fff; font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" style="color: #fff; font-size: 1.2rem;"><i class="fab fa-github"></i></a>
+                        <a href="#" style="color: #fff; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button class="btn btn-cyan btn-block">Edit Profile</button>
+                </div>
+
+                <!-- Profile Details -->
+                <div class="profile-details" style="flex: 2;">
+                    <div class="details-card" style="background: rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 40px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 30px;">
+                        <h3 class="neon-cyan" style="margin-bottom: 20px;">About Me</h3>
+                        <p style="line-height: 1.6; margin-bottom: 20px;">Experienced software engineer with a passion for creating innovative solutions. Specialized in full-stack development and cloud architecture. Always eager to learn and adapt to new technologies.</p>
+                        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item" style="background: rgba(0, 242, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details-card" style="background: rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 40px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <h3 class="neon-cyan" style="margin-bottom: 20px;">Recent Activity</h3>
+                        <div class="activity-list">
+                            <div class="activity-item" style="display: flex; align-items: center; gap: 20px; padding: 15px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+                                <div class="activity-icon" style="width: 40px; height: 40px; background: rgba(0, 242, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-code" style="color: var(--primary-color);"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4 style="margin-bottom: 5px;">Project Update</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.7);">Updated the main dashboard interface</p>
+                                </div>
+                                <span style="margin-left: auto; color: rgba(255, 255, 255, 0.5);">2h ago</span>
+                            </div>
+                            <div class="activity-item" style="display: flex; align-items: center; gap: 20px; padding: 15px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+                                <div class="activity-icon" style="width: 40px; height: 40px; background: rgba(162, 89, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-star" style="color: var(--accent-color);"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4 style="margin-bottom: 5px;">Achievement Unlocked</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.7);">Completed 100 successful deployments</p>
+                                </div>
+                                <span style="margin-left: auto; color: rgba(255, 255, 255, 0.5);">1d ago</span>
+                            </div>
+                            <div class="activity-item" style="display: flex; align-items: center; gap: 20px; padding: 15px 0;">
+                                <div class="activity-icon" style="width: 40px; height: 40px; background: rgba(0, 242, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-users" style="color: var(--primary-color);"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4 style="margin-bottom: 5px;">Team Meeting</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.7);">Weekly sprint planning session</p>
+                                </div>
+                                <span style="margin-left: auto; color: rgba(255, 255, 255, 0.5);">2d ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-flex">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="assests/logo.png" alt="Sensilog Logo" class="footer-logo">
+                        <p>Innovating for a smarter tomorrow</p>
+                    </div>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:info@sensilog.com">info@sensilog.com</a></li>
+                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li><a href="#">123 Tech Street</a></li>
+                        <li><a href="#">Silicon Valley, CA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sensilog. All rights reserved. <i class="fas fa-heart neon-cyan"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
